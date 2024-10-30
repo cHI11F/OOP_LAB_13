@@ -1,0 +1,24 @@
+﻿  OOP_LAB_13.cpp
+D:\Лабораторні ООП\OOP_LAB_13\OOP_LAB_13\OOP_LAB_13.cpp(44,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  D:\Лабораторні ООП\OOP_LAB_13\OOP_LAB_13\OOP_LAB_13.cpp(44,32):
+  the template instantiation context (the oldest one first) is
+  	D:\Лабораторні ООП\OOP_LAB_13\OOP_LAB_13\OOP_LAB_13.cpp(65,17):
+  	see reference to class template instantiation 'Vector<int>' being compiled
+  	D:\Лабораторні ООП\OOP_LAB_13\OOP_LAB_13\OOP_LAB_13.cpp(43,12):
+  	while compiling class template member function 'Vector<int> Vector<int>::operator *(T) const'
+          with
+          [
+              T=int
+          ]
+  		D:\Лабораторні ООП\OOP_LAB_13\OOP_LAB_13\OOP_LAB_13.cpp(90,25):
+  		see the first reference to 'Vector<int>::operator *' in 'main'
+  
+D:\Лабораторні ООП\OOP_LAB_13\OOP_LAB_13\OOP_LAB_13.cpp(35,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  D:\Лабораторні ООП\OOP_LAB_13\OOP_LAB_13\OOP_LAB_13.cpp(35,32):
+  the template instantiation context (the oldest one first) is
+  	D:\Лабораторні ООП\OOP_LAB_13\OOP_LAB_13\OOP_LAB_13.cpp(31,12):
+  	while compiling class template member function 'Vector<int> Vector<int>::operator +(const Vector<int> &) const'
+  		D:\Лабораторні ООП\OOP_LAB_13\OOP_LAB_13\OOP_LAB_13.cpp(82,21):
+  		see the first reference to 'Vector<int>::operator +' in 'main'
+  
+  OOP_LAB_13.vcxproj -> D:\Лабораторні ООП\OOP_LAB_13\x64\Debug\OOP_LAB_13.exe
